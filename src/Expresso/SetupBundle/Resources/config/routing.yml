@@ -1,0 +1,3 @@
+setup_homepage:
+    pattern:  /setup
+    defaults: { _controller: SetupBundle:Default:index }

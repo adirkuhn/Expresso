@@ -1,0 +1,11 @@
+setup:
+    resource: "@SetupBundle/Resources/config/routing.yml"
+    prefix:   /
+
+expresso:
+    resource: "@ExpressoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+appmanager:
+    resource: "@AppManagerBundle/Resources/config/routing.yml"
+    prefix:   /

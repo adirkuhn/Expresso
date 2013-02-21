@@ -1,0 +1,7 @@
+parameters:
+#    setup.example.class: Expresso\SetupBundle\Example
+
+services:
+#    setup.example:
+#        class: %setup.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

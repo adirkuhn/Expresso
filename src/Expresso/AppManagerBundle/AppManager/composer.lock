@@ -1,0 +1,72 @@
+{
+    "hash": "012dce64c9b6fd8732699fd60927b4b8",
+    "packages": [
+        {
+            "name": "expresso/appmanager-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adirkuhn/expresso-appinstaller.git",
+                "reference": "1e3aa82c5d3bfe169c9c881e78dab24b0dc8f7d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/adirkuhn/expresso-appinstaller/archive/1e3aa82c5d3bfe169c9c881e78dab24b0dc8f7d4.zip",
+                "reference": "1e3aa82c5d3bfe169c9c881e78dab24b0dc8f7d4",
+                "shasum": ""
+            },
+            "time": "2012-12-03 17:02:18",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Custom\\Expresso\\SystemInstaller"
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Custom\\Expresso\\": "src/"
+                }
+            },
+            "description": "Expresso AppManager Bundle Instaler"
+        },
+        {
+            "name": "expresso/expressofoobundle",
+            "version": "dev-master",
+            "target-dir": "Expresso/ExpressoFooBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/adirkuhn/ExpressoFoo",
+                "reference": "e23a367c6b9388c9ee4717eb70e144f54eb5328b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/adirkuhn/ExpressoFoo/archive/e23a367c6b9388c9ee4717eb70e144f54eb5328b.zip",
+                "reference": "e23a367c6b9388c9ee4717eb70e144f54eb5328b",
+                "shasum": ""
+            },
+            "require": {
+                "expresso/appmanager-installer": "dev-master"
+            },
+            "time": "2012-11-29 18:37:18",
+            "type": "library",
+            "installation-source": "source",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Adir Kuhn",
+                    "email": "adirkuhn@gmail.com"
+                }
+            ],
+            "description": "Bundle Foo for tests in AppManager"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "expresso/expressofoobundle": 20
+    }
+}

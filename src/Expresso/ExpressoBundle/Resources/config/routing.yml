@@ -1,0 +1,3 @@
+expresso_homepage:
+    pattern:  /
+    defaults: { _controller: ExpressoBundle:Default:index }
